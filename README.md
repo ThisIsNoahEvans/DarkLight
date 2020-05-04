@@ -1,4 +1,4 @@
-# DarkLightMode
+# DarkLight Mode
 A simple macOS application and menu bar icon to change the system theme
 
 ### This application is still in beta. Please report any bugs via [this link](https://go.itsnoahevans.co.uk/DLmodeBetaFeedback).
