@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1411932483A31900029595 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1411922483A31900029595 /* About.storyboard */; };
+		4FD556992482F5E600A6BD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD556982482F5E600A6BD68 /* AppDelegate.swift */; };
+		4FD5569B2482F5E600A6BD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD5569A2482F5E600A6BD68 /* ViewController.swift */; };
+		4FD5569D2482F5E700A6BD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD5569C2482F5E700A6BD68 /* Assets.xcassets */; };
+		4FD556A02482F5E700A6BD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD5569E2482F5E700A6BD68 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F1411922483A31900029595 /* About.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
+		4FD556952482F5E600A6BD68 /* DarkLight Menu Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DarkLight Menu Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD556982482F5E600A6BD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FD5569A2482F5E600A6BD68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FD5569C2482F5E700A6BD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FD5569F2482F5E700A6BD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FD556A12482F5E700A6BD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD556A22482F5E700A6BD68 /* DarkLight_Menu_Bar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkLight_Menu_Bar.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD556922482F5E600A6BD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD5568C2482F5E600A6BD68 = {
+			isa = PBXGroup;
+			children = (
+				4FD556972482F5E600A6BD68 /* DarkLight Menu Bar */,
+				4FD556962482F5E600A6BD68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD556962482F5E600A6BD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD556952482F5E600A6BD68 /* DarkLight Menu Bar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD556972482F5E600A6BD68 /* DarkLight Menu Bar */ = {
+			isa = PBXGroup;
+			children = (
+				4FD556982482F5E600A6BD68 /* AppDelegate.swift */,
+				4FD5569A2482F5E600A6BD68 /* ViewController.swift */,
+				4FD5569C2482F5E700A6BD68 /* Assets.xcassets */,
+				4FD5569E2482F5E700A6BD68 /* Main.storyboard */,
+				4F1411922483A31900029595 /* About.storyboard */,
+				4FD556A12482F5E700A6BD68 /* Info.plist */,
+				4FD556A22482F5E700A6BD68 /* DarkLight_Menu_Bar.entitlements */,
+			);
+			path = "DarkLight Menu Bar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD556942482F5E600A6BD68 /* DarkLight Menu Bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD556BB2482F5E800A6BD68 /* Build configuration list for PBXNativeTarget "DarkLight Menu Bar" */;
+			buildPhases = (
+				4FD556912482F5E600A6BD68 /* Sources */,
+				4FD556922482F5E600A6BD68 /* Frameworks */,
+				4FD556932482F5E600A6BD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DarkLight Menu Bar";
+			productName = "DarkLight Menu Bar";
+			productReference = 4FD556952482F5E600A6BD68 /* DarkLight Menu Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD5568D2482F5E600A6BD68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Noah Evans";
+				TargetAttributes = {
+					4FD556942482F5E600A6BD68 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 4FD556902482F5E600A6BD68 /* Build configuration list for PBXProject "DarkLight Menu Bar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FD5568C2482F5E600A6BD68;
+			productRefGroup = 4FD556962482F5E600A6BD68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD556942482F5E600A6BD68 /* DarkLight Menu Bar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FD556932482F5E600A6BD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD5569D2482F5E700A6BD68 /* Assets.xcassets in Resources */,
+				4F1411932483A31900029595 /* About.storyboard in Resources */,
+				4FD556A02482F5E700A6BD68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD556912482F5E600A6BD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD5569B2482F5E600A6BD68 /* ViewController.swift in Sources */,
+				4FD556992482F5E600A6BD68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FD5569E2482F5E700A6BD68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD5569F2482F5E700A6BD68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FD556B92482F5E800A6BD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FD556BA2482F5E800A6BD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4FD556BC2482F5E800A6BD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DarkLight Menu Bar/DarkLight_Menu_Bar.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TAZG5QA452;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = "DarkLight Menu Bar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "VelocityApps.DarkLight-Menu-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4FD556BD2482F5E800A6BD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DarkLight Menu Bar/DarkLight_Menu_Bar.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TAZG5QA452;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = "DarkLight Menu Bar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "VelocityApps.DarkLight-Menu-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD556902482F5E600A6BD68 /* Build configuration list for PBXProject "DarkLight Menu Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD556B92482F5E800A6BD68 /* Debug */,
+				4FD556BA2482F5E800A6BD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD556BB2482F5E800A6BD68 /* Build configuration list for PBXNativeTarget "DarkLight Menu Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD556BC2482F5E800A6BD68 /* Debug */,
+				4FD556BD2482F5E800A6BD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FD5568D2482F5E600A6BD68 /* Project object */;
+}

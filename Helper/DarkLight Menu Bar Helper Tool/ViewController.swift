@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  DarkLight Menu Bar
+//  DarkLight Menu Bar Helper Tool
 //
-//  Created by Noah Evans on 30/05/2020.
+//  Created by Noah Evans on 01/06/2020.
 //  Copyright © 2020 Noah Evans. All rights reserved.
 //
 
@@ -18,7 +18,6 @@ class ViewController: NSViewController {
 
     override var representedObject: Any? {
         didSet {
-            print("test")
         // Update the view, if already loaded.
         }
     }

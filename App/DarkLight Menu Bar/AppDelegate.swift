@@ -8,6 +8,7 @@
 
 import Cocoa
 import Automator
+import Foundation
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -50,23 +51,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
         @objc func switchTheme() {
-            guard let workflowPath = Bundle.main.path(forResource: "script", ofType: "workflow") else {
-                    print("Workflow resource not found")
-                let alert = NSAlert()
-                alert.alertStyle = .critical
-                alert.messageText = "There was an issue changing the system theme."
-                alert.informativeText = "Please reinstall the application."
-                alert.runModal()
-                    return
-                }
+            NSWorkspace.shared.open(URL(fileURLWithPath: "/Library/Application Support/VelocityApps.DarkLight-Menu-Bar/DarkLight Menu Bar Helper Tool.app"))
 
-                let workflowURL = URL(fileURLWithPath: workflowPath)
-                do {
-                    try AMWorkflow.run(at:workflowURL, withInput: nil)
-                } catch {
-                    print("Error running workflow: \(error)")
-        }
+            
     }
+    
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
