@@ -1,5 +1,5 @@
 # DarkLight
-A simple macOS menu bar icon to change the system theme, made with 100% Swift
+A simple macOS menu bar icon to change the system theme, made with Swift
 
 ## Latest release: Version 1.0
 Version 1.0 - download on our [website](https://velocityapps.tech/darklight) or from our [GitHub Release](https://github.com/VelocityApps/DarkLight/releases/tag/1.0)
